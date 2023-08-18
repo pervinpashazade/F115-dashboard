@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.app-wrapper {
+    display: grid;
+    grid-template-columns: 345px auto;
+
+    .sidebar {
+        height: 100vh;
+        background-color: #fff;
+        padding: 50px 46px 0 46px;
+
+        img {
+            display: inline-block;
+            margin-bottom: 46px;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                a {
+                    display: inline-block;
+                    text-decoration: none;
+                    padding: 24px 0;
+                }
+            }
+        }
+    }
+
+    .content {
+        background-color: #E8E8E8;
+
+        .content-inner {
+            padding: 2rem;
+        }
+    }
+}
